@@ -70,3 +70,32 @@ A reliable machine learning model capable of predicting laptop prices with high 
 
 Insights into the factors influencing laptop prices, empowering SmartTech Co. in market positioning and strategy.
 """
+
+"""**Questions to Explore:**
+
+Which features have the most significant impact on laptop prices?
+
+*   RAM, SSD, Screen Resolution, CPU
+
+Can the model accurately predict the prices of laptops from lesser-known brands?
+
+*   The model cannot predict the price of lesse known brands due to comparitively less data of such brands
+
+Does the brand of the laptop significantly influence its price?
+
+*   Yes, price range varies on top brands
+
+How well does the model perform on laptops with high-end specifications compared to budget laptops?
+
+*   As the number of budget laptops are comparitively more in the dataset, the model gets more data for training and which directly impacts the prediction.
+
+What are the limitations and challenges in predicting laptop prices accurately?
+
+*   ML models typically focus on technical specifications. Brand reputation and popularity can influence price more than technical features and it is usuallyincomprehensible for ML models. Also dataset size play a vital role in prediction accuracy.
+
+How does the model perform when predicting the prices of newly released laptops not present in the training dataset?
+
+*   If new features are present in upcoming laptop models the ML model may produce less accurate results
+
+
+
